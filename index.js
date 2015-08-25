@@ -61,6 +61,11 @@ function clrbit(board, byte) {
 	i2c.writeByteSync(board, gpio, outstatus);
 }
 
+//Set all 8 bits as output
+function setasoutput(board) {
+	i2c.writeByteSync(board, 0x00, 0x00);
+}
+
 function alloff(board, byte) {
 	outstatus = 0x00;
 	i2c.writeByteSync(board, gpio, outstatus);
@@ -68,5 +73,6 @@ function alloff(board, byte) {
 
 exports.setbit = setbit;
 exports.clrbit = clrbit;
+exports.setasoutput = setasoutput;
 exports.alloff = alloff;
 // exports.ONrelay0 = ONrelay0;

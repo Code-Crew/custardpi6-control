@@ -39,25 +39,15 @@ exports.OFFrelay6= 0xBF;
 exports.OFFrelay7= 0x7F;
 
 
-// raspi.init(function() {
-// 	// setbit(0x21, 0x09, 0x01);
-// 	// setbit(0x21, 0x09, 0x02);
-// 	// clrbit(0x21, 0x09, 0xFE);
-// });
-
-//setbit(add1, ONrelay0);
-// // setbit(0x21, 0x02);
-// clrbit(0x21, 0xFE);
-
-
+// Set 'board' with following bit
 function setbit(board, byte) {
 	outstatus = i2c.readByteSync(board) | byte;
-	console.log(outstatus);
 	i2c.writeByteSync(board, gpio, outstatus);
 }
+
+// Same as above but with easy to remember name to clear bits
 function clrbit(board, byte) {
 	outstatus = i2c.readByteSync(board) & byte;
-	console.log(outstatus);
 	i2c.writeByteSync(board, gpio, outstatus);
 }
 
@@ -66,6 +56,7 @@ function setasoutput(board) {
 	i2c.writeByteSync(board, 0x00, 0x00);
 }
 
+// Turn all relays off
 function alloff(board, byte) {
 	outstatus = 0x00;
 	i2c.writeByteSync(board, gpio, outstatus);
@@ -75,4 +66,3 @@ exports.setbit = setbit;
 exports.clrbit = clrbit;
 exports.setasoutput = setasoutput;
 exports.alloff = alloff;
-// exports.ONrelay0 = ONrelay0;

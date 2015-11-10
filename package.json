@@ -1,6 +1,6 @@
 {
   "name": "custardpi6-control",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Library to control CustardPi-6 relay control boards.",
   "main": "index.js",
   "scripts": {

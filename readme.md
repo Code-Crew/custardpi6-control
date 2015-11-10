@@ -1,6 +1,6 @@
 # CustardPi-6 Control
 
-This is a NodeJS module created for the purpose of interacting with the CustardPi-6 from SF Innovations http://www.sf-innovations.co.uk/custard-pi-6.html[http://www.sf-innovations.co.uk/custard-pi-6.html]
+This is a NodeJS module created for the purpose of interacting with the CustardPi-6 from SF Innovations http://www.sf-innovations.co.uk/custard-pi-6.html
 
 ## Installation
 
@@ -27,7 +27,7 @@ This is a NodeJS module created for the purpose of interacting with the CustardP
 
 If you bump into issues or would like to participate in the development of this module please submit an issue or pull request on the github repo.
 
-https://github.com/Code-Crew/custardpi6-control [https://github.com/Code-Crew/custardpi6-control]
+https://github.com/Code-Crew/custardpi6-control
 
 Otherwise, contact us via our website: http://codecrew.io/contact
 

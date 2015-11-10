@@ -1,12 +1,12 @@
-#CustardPi-6 Control
+# CustardPi-6 Control
 
 This is a NodeJS module created for the purpose of interacting with the CustardPi-6 from SF Innovations http://www.sf-innovations.co.uk/custard-pi-6.html[http://www.sf-innovations.co.uk/custard-pi-6.html]
 
-##Installation
+## Installation
 
     npm install custardpi6-control
 
-##Basic Usage
+## Basic Usage
 
     // Load Module    
     var cpi6 = require('custardpi6-control');
@@ -23,7 +23,7 @@ This is a NodeJS module created for the purpose of interacting with the CustardP
     // Turn off All Relays on Board 0
     cpi6.alloff(cpi6.add0);
 
-##Issues & Feedback
+## Issues & Feedback
 
 If you bump into issues or would like to participate in the development of this module please submit an issue or pull request on the github repo.
 

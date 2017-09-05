@@ -29,5 +29,5 @@ If you bump into issues or would like to participate in the development of this 
 
 https://github.com/Code-Crew/custardpi6-control
 
-Otherwise, contact us via our website: http://codecrew.io/contact
+Otherwise, contact us via our website: https://www.code-crew.net/pages/contact
 
